@@ -39,7 +39,7 @@ The project uses a sales dataset containing 141 sales executive records across 8
 
 The dataset includes daily sales figures, total sales, assigned targets, target achievement percentages, and performance gaps.
 
-**Dataset file:** [`raw_data.csv`](data/raw_data.csv)
+**Dataset file:** [`raw_data.csv`](data/Raw_Data.xlsx)
 
 ### Dataset Columns
 
