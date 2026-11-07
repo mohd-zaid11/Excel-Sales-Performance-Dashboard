@@ -33,6 +33,27 @@ This provides greater flexibility and control over dashboard interactions.
 
 ---
 
+## 📁 Dataset
+
+The project uses a sales dataset containing 141 sales executive records across 8 regions.
+
+The dataset includes daily sales figures, total sales, assigned targets, target achievement percentages, and performance gaps.
+
+**Dataset file:** [`raw_data.csv`](data/raw_data.csv)
+
+### Dataset Columns
+
+- `Emp Code`: Unique employee identifier.
+- `Sales Executive`: Name of the sales executive.
+- `Region`: Region associated with the sales record.
+- `Day1` – `Day5`: Daily sales figures.
+- `Total Sales`: Total sales generated over five days.
+- `Target`: Assigned sales target.
+- `Target Hit %`: Percentage of the target achieved.
+- `Away From Target %`: Remaining percentage required to achieve the target.
+
+  ---
+
 ## ✨ Key Features
 
 ### 1. Interactive Sales Dashboard
@@ -145,10 +166,13 @@ Excel-Sales-Performance-Dashboard/
 │
 ├── Excel-Sales-Performance-Dashboard.xlsm
 │
+├── data/
+│   └── Raw_Data.csv
+│
 ├── images/
 │   ├── Dashboard_Main.png
 │   ├── Dashboard_Overview.png
-│   ├── DataPreview.png
+│   ├── Raw_Data_Preview.png
 │   ├── PivotTable_Analysis.png
 │   └── Region_Slicer.png
 │
